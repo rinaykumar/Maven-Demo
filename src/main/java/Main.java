@@ -14,6 +14,7 @@ public class Main {
     Socket dong = null;
 
     System.out.println("Opening file");
+    System.out.println("Not closing file");
 
     try {
       ding = new ServerSocket(1299);
