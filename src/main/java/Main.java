@@ -12,6 +12,9 @@ public class Main {
   public static void main(String[] args) throws IOException {
     ServerSocket ding;
     Socket dong = null;
+
+    System.out.println("Opening file");
+
     try {
       ding = new ServerSocket(1299);
       System.out.println("Opened socket " + 1299);
